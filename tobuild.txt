@@ -1,0 +1,3 @@
+externals
+libmultisense-pod
+multisense-lcm

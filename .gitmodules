@@ -1,0 +1,3 @@
+[submodule "multisense-lcm"]
+	path = multisense-lcm
+	url = https://github.com/openhumanoids/multisense-lcm.git
