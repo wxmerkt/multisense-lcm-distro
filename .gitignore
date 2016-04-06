@@ -1,0 +1,7 @@
+build/
+externals/Eigen_pod/
+externals/bot_core_lcmtypes/
+externals/common_utils/
+externals/libbot/
+externals/opencv/
+externals/pod-build/
