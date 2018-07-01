@@ -12,7 +12,7 @@ We use Ubuntu 14.04, to install common dependencies:
 LCM Dependency
 --------------
 
-LCM (v1.3.1) is a required dependency which must be installed from source. It can be retrived from http://lcm-proj.github.io/
+LCM (v1.3.1) is a required dependency which must be installed from source. It can be retrieved from http://lcm-proj.github.io/
 
 ::
 

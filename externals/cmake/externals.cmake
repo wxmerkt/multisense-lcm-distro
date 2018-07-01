@@ -1,21 +1,21 @@
-set(bot_core_lcmtypes_url https://github.com/iamwolf/bot_core_lcmtypes.git)
-set(bot_core_lcmtypes_revision c29cd6076d13ca2a3ecc23ffcbe28a0a1ab46314)
-set(bot_core_lcmtypes_depends ${lcm_proj})
+# set(bot_core_lcmtypes_url https://github.com/iamwolf/bot_core_lcmtypes.git)
+# set(bot_core_lcmtypes_revision c29cd6076d13ca2a3ecc23ffcbe28a0a1ab46314)
+# set(bot_core_lcmtypes_depends ${lcm_proj})
 
-set(libbot_url https://github.com/openhumanoids/libbot.git)
-set(libbot_revision 49d34ae743ab7273640a33cf5509826d6b85e295)
-set(libbot_depends bot_core_lcmtypes ${lcm_proj})
+# set(libbot_url https://github.com/openhumanoids/libbot.git)
+# set(libbot_revision 49d34ae743ab7273640a33cf5509826d6b85e295)
+# set(libbot_depends bot_core_lcmtypes ${lcm_proj})
 
-set(opencv_proj opencv)
-set(opencv_url https://github.com/Itseez/opencv.git)
-set(opencv_revision 2.4.12.3)
-set(opencv_depends Eigen_pod)
-set(opencv_external_args
-  CMAKE_CACHE_ARGS
-    ${default_cmake_args}
-    ${python_args}
-    -DWITH_CUDA:BOOL=OFF
-  )
+# set(opencv_proj opencv)
+# set(opencv_url https://github.com/Itseez/opencv.git)
+# set(opencv_revision 2.4.12.3)
+# set(opencv_depends Eigen_pod)
+# set(opencv_external_args
+#   CMAKE_CACHE_ARGS
+#     ${default_cmake_args}
+#     ${python_args}
+#     -DWITH_CUDA:BOOL=OFF
+#   )
 
 set(Eigen_pod_url https://github.com/RobotLocomotion/eigen-pod.git)
 set(Eigen_pod_revision ceba39500b89a77a8649b3e8b421b10a3d74d42b)
@@ -23,7 +23,7 @@ set(Eigen_pod_depends)
 
 set(common_utils_url https://github.com/openhumanoids/common_utils.git)
 set(common_utils_revision bf0c9223e02a193a3cfef4034ef82a94219f116a)
-set(common_utils_depends Eigen_pod libbot)
+set(common_utils_depends Eigen_pod) # libbot)
 
 #set(fovis_url https://github.com/fovis/fovis.git)
 #set(fovis_revision ee2fe6593ed9e7e5ce2b2f6f1c64b627da119090)
@@ -31,9 +31,9 @@ set(common_utils_depends Eigen_pod libbot)
 
 set(externals
   Eigen_pod
-  bot_core_lcmtypes
-  libbot
-  opencv
+  # bot_core_lcmtypes
+  # libbot
+  # opencv
   common_utils
   #fovis
 )

@@ -53,7 +53,7 @@ configure: $(UNZIP_DIR)/CMakeLists.txt
 		   -DCMAKE_BUILD_TYPE=$(BUILD_TYPE) ../$(UNZIP_DIR)
 
 $(UNZIP_DIR)/CMakeLists.txt:
-	hg clone http://bitbucket.org/crl/libmultisense -r a57026c
+	hg clone http://bitbucket.org/crl/libmultisense -r abb86d7
 
 clean:
 	-if [ -e pod-build/install_manifest.txt ]; then rm -f `cat pod-build/install_manifest.txt`; fi
